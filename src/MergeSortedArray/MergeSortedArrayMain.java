@@ -1,5 +1,6 @@
 package MergeSortedArray;
 
+import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class MergeSortedArrayMain {
@@ -9,20 +10,12 @@ public class MergeSortedArrayMain {
     }
 
     public static void merge(int[] nums1, int m, int[] nums2, int n) {
-
-        int[] tempArray = new int[nums1.length];
-
-        for (int i = 0; i < nums2.length; i++) {
-            for (int j = 0; j < nums1.length; j++) {
-                if (nums1[j] < nums2[i]) {
-
-                }
-            }
+        int j= 0;
+        for (int i = m; i < m + n ; i++) {
+            nums1[i] = nums2[j];
+            j++;
         }
-
-
-        nums1 = tempArray.clone();
+        Arrays.sort(nums1);
         System.out.println(Arrays.toString(nums1));
-
     }
 }

@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="235de9a9-4bd0-4843-8f72-fe4840efc2e6" name="Changes" comment="+ ReverseIntegerMain">
-      <change afterPath="$PROJECT_DIR$/src/JumpGame/JumpGameMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LengthOfLastWord/LengthOfLastWordMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MergeSortedArray/MergeSortedArrayMain.java" afterDir="false" />
+    <list default="true" id="235de9a9-4bd0-4843-8f72-fe4840efc2e6" name="Changes" comment="+ LengthOfLastWordMain (+JumpGameMain)">
+      <change afterPath="$PROJECT_DIR$/src/RemoveDuplicatesFromSortedArray/RemoveDuplicatesFromSortedArrayMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SearchInsert/SearchInsertMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SearchInsert/TestSearchInsert.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MergeSortedArray/MergeSortedArrayMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MergeSortedArray/MergeSortedArrayMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,13 +43,22 @@
     "Application.LengthOfLastWordMain.executor": "Run",
     "Application.MedianOfTwoSortedArraysMain.executor": "Run",
     "Application.MergeSortedArrayMain.executor": "Run",
+    "Application.RemoveDuplicatesFromSortedArrayMain.executor": "Run",
     "Application.ReverseIntegerMain.executor": "Run",
+    "Application.SearchInsertMain.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.TestSearchInsert.executor": "Run",
+    "JUnit.TestSearchInsert.test4.executor": "Run",
+    "JUnit.TestSearchInsert.test5.executor": "Debug",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/jaspe/IdeaProjects/LeetCode/LeetCode/src"
+    "last_opened_file_path": "C:/Users/jaspe/IdeaProjects/LeetCode/LeetCode"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -55,7 +66,7 @@
       <recent name="C:\Users\jaspe\IdeaProjects\LeetCode\LeetCode\src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TestSearchInsert">
     <configuration name="MedianOfTwoSortedArraysMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MedianOfTwoSortedArrays.MedianOfTwoSortedArraysMain" />
       <module name="LeetCode" />
@@ -82,8 +93,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSearchInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SearchInsert.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SearchInsert" />
+      <option name="MAIN_CLASS_NAME" value="SearchInsert.TestSearchInsert" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSearchInsert.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SearchInsert.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SearchInsert" />
+      <option name="MAIN_CLASS_NAME" value="SearchInsert.TestSearchInsert" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSearchInsert.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SearchInsert.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SearchInsert" />
+      <option name="MAIN_CLASS_NAME" value="SearchInsert.TestSearchInsert" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestSearchInsert" />
+        <item itemvalue="JUnit.TestSearchInsert.test5" />
+        <item itemvalue="JUnit.TestSearchInsert.test4" />
         <item itemvalue="Application.MedianOfTwoSortedArraysMain" />
         <item itemvalue="Application.ReverseIntegerMain" />
       </list>
@@ -106,12 +167,21 @@
       <option name="project" value="LOCAL" />
       <updated>1730048140933</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="+ LengthOfLastWordMain (+JumpGameMain)">
+      <option name="closed" value="true" />
+      <created>1730070658720</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730070658720</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="+ ReverseIntegerMain" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ ReverseIntegerMain" />
+    <MESSAGE value="+ LengthOfLastWordMain (+JumpGameMain)" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ LengthOfLastWordMain (+JumpGameMain)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -125,6 +195,15 @@
           <url>file://$PROJECT_DIR$/src/JumpGame/JumpGameMain.java</url>
           <line>40</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/SearchInsert/SearchInsertMain.java</url>
+          <line>12</line>
+          <properties class="SearchInsert.SearchInsertMain" method="searchInsert">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
